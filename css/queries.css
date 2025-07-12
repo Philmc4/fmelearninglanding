@@ -1,0 +1,131 @@
+@media (max-width: 1250px) {
+  .btn-1:link,
+  .btn-1:visited {
+    padding: 0.5rem 1rem;
+  }
+  .btn-2:link,
+  .btn-2:visited {
+    padding: 0.5rem 1rem;
+  }
+  .btn-3:link,
+  .btn-3:visited {
+    padding: 0.5rem 1rem;
+  }
+  header {
+    height: 96px;
+    padding: 24px 44px;
+  }
+  .header-content {
+    width: 680px;
+    height: 48px;
+  }
+  .header-logo,
+  .footer-logo {
+    height: 20px;
+    width: 80px;
+  }
+  .hero-section {
+    max-width: 768px;
+    height: 528px;
+    padding: 64px 44px;
+  }
+  .hero-container {
+    width: 680px;
+    height: 400px;
+    gap: 24px;
+  }
+  .hero-text {
+    width: 326px;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero-img-tab {
+    display: inherit;
+    position: absolute;
+    bottom: 0;
+    top: -55%;
+    z-index: 10;
+  }
+  .feature-section {
+    padding: 64px 44px 144px;
+  }
+  .feature-grid {
+    width: 680px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 24px;
+  }
+  .feature-card,
+  .feature-card-icon {
+    width: 328px;
+  }
+  footer {
+    height: 96px;
+    padding: 24px 44px;
+  }
+  .footer-container {
+    width: 680px;
+    height: 48px;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-3 {
+    font-size: 24px;
+  }
+  header {
+    height: 91px;
+    padding: 16px 20px;
+  }
+  .header-content {
+    width: 335px;
+    height: 59px;
+  }
+  .hero-section {
+    max-width: 375px;
+    height: 824px;
+    padding: 64px 20px;
+  }
+  .hero-container {
+    width: 335px;
+    height: 696px;
+    gap: 48px;
+    flex-direction: column;
+  }
+
+  .hero-img-tab {
+    display: none;
+  }
+  .hero-img-mob {
+    display: inherit;
+    width: 335px;
+    height: 320px;
+  }
+  .feature-section {
+    padding: 64px 20px 80px;
+  }
+  .feature-grid {
+    width: 335px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+  .feature-card {
+    width: 335px;
+    height: 122px;
+    margin-top: 0px;
+    padding: 32px;
+  }
+  .feature-card-icon {
+    width: 335px;
+    height: 304px;
+  }
+  footer {
+    padding: 24px 20px;
+  }
+  .footer-container {
+    width: 335px;
+  }
+}
